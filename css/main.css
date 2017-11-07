@@ -80,6 +80,21 @@ section .contcenter{
 
 }
 
+#lista{
+	background-color: #E5E6E9
+    height:auto;
+    width: 250px;
+    border-radius: 2px;
+    visibility: none; /*o hidden??? */
+}
 
+
+#textbox{
+
+}
+
+#agregar{ /*botón agrega tarea*/
+
+ }
 
 

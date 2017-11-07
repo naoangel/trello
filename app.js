@@ -1,9 +1,11 @@
-var boton = document.getElemenntById('btnstart');
+/*var boton = document.getElemenntById('btnstart');
 boton.addEventListener('click',function({
-})
+})*/
 
 
 
-document.createElement("div");
 
+var Tarea = document.getElementById('textbox')
+
+document.getElementById('textbox').value = '';
 
