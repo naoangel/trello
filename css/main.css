@@ -3,30 +3,81 @@
 	padding: 0;
 }
 
+/*header*/
 
 header{
 	background-color: #147AA7;
 	height: 70px;
 	width: 100%;
+	text-align: center;
+	
+	
 }
 
 
 header .container{
-	width: 90%;
-	padding: 10px;
+	width: 95%;
+	height: 50px;
+	margin-top:10px;
+	display: inline-block;
+    
 }
 
-.search{
+
+/* Caja de bpusqueda que quizás use
+ 	.search{
 	background-color: #66A3C1;
+	height:50px;
+	width: 30%;
+	margin: 10px;
+	display: block;	
 }
+
 .fa-search{
 	color:#569BBD;
+}*/
+
+.logo{
+	height:40px;
+	width:140px;
+	background-image: url(../assets/img/logo_trello_w.png);
+	background-size: cover;
+	margin-left: 45%;
+
 }
 
-.center{
+
+/*section*/
+
+
+section {
 	background-color: #1D8DC2;
-	width: 100vh;
-    height: auto;
+	width: 100%;
+	text-align: center;
+}
+
+section .contcenter{
+	width: 90%;
+    height: 600px;
+    text-align: left;
+    margin-left: 100px;
+
+
+}
+
+#btnstart{
+	height: 30px;
+	width: 250px;
+	color: #D9D7D7;
+	margin-top: 50px;
+	background-color: #65A6C6;
+	border-style: none;
+}
+
+#btnstart:hover {
+    background-color: #147AA7;
+    color: #FFF;
+
 }
 
 
